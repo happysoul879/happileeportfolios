@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+</head>
+<body>
+<h3>LET'S TALK</h3>
+<h2>Contact Happiness</h2>
+<p>I’m available for freelance work, collaborations, and full-time opportunities. Send a message and I’ll get back to you soon.</p>
+
+<!-- Adding a cta button for users to use directly -->
+<a href="mailto:uduakassagba@gmail.com" class="ctabtn">Email Me</a>
+<a href="tel:+2348101315719" class="ctabtn">Call Me</a>
+
+ <!--  Adding a contact form for users to fill out -->
+    <form action="/submit-contact" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
